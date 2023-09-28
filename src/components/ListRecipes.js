@@ -25,7 +25,6 @@ const ListRecipes = () => {
     setFood(e.target.value);
     getData();
   };
-  console.log(recipes);
   return (
     <>
       <div className="input-container">
