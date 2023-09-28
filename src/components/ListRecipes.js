@@ -29,7 +29,7 @@ const ListRecipes = () => {
     <>
       <div className="input-container">
         <input
-          type="search"
+          type="text"
           onChange={(e) => handleSearch(e)}
           placeholder="Rechercher par ingrédient"
           className="mb-3"
