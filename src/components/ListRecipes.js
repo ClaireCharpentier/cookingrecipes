@@ -32,7 +32,6 @@ const ListRecipes = () => {
           type="text"
           onChange={(e) => handleSearch(e)}
           placeholder="Rechercher par ingrédient"
-          className="mb-3"
         />
       </div>
       <div className="list-recipes">
