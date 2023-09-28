@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    margin: 16px;
+}
+
+.list-recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
